@@ -6,6 +6,7 @@ class RoonTui < Formula
   homepage "https://github.com/TheAppgineer/roon-tui"
 
   url "https://github.com/TheAppgineer/roon-tui.git", tag: "#{version}"
+  head "https://github.com/TheAppgineer/roon-tui.git", branch: "develop"
   sha256 "9491bf36af59c4498e997a09a7fba745ce734f16d508ae30dd687986c8cbed88"
 
   depends_on "rust" => :build
