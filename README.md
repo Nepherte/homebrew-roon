@@ -18,12 +18,13 @@ An overview of the available packages in this homebrew tap:
 FAQ
 ---
 #### Where is the source code coming from?
-The source code is taken from https://github.com/TheAppgineer/roon-tui.
+The source code is taken from the upstream 
+[GitHub](https://github.com/TheAppgineer/roon-tui) repository.
 
 #### Can you provide a cask instead?
 There is currently no plan to do so. I will reconsider if upstream provides binaries.
 
 Credits
 -------
-Big thanks to Jan Koudijs for providing roon-tui. Check out his GitHub profile
-at https://github.com/TheAppgineer.
+Big thanks to Jan Koudijs for providing roon-tui. Check out his
+[GitHub](https://github.com/TheAppgineer) profile.
