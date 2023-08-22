@@ -12,8 +12,7 @@ class RoonTui < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", "--release"
-    bin.install "target/release/roon-tui"
+    system "cargo", "install", *std_cargo_args
   end
 
   def caveats
