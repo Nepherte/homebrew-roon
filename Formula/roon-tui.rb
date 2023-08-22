@@ -2,7 +2,7 @@ class RoonTui < Formula
   version "0.0.3"
   license "MIT"
 
-  desc "A Roon Remote for the terminal"
+  desc "Roon Remote for the terminal"
   homepage "https://github.com/TheAppgineer/roon-tui"
 
   url "https://github.com/TheAppgineer/roon-tui.git", tag: "#{version}"
