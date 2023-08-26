@@ -5,7 +5,7 @@ class RoonTui < Formula
   homepage "https://github.com/TheAppgineer/roon-tui"
 
   url "https://github.com/TheAppgineer/roon-tui.git", tag: "0.0.3"
-  head "https://github.com/TheAppgineer/roon-tui.git", branch: "develop"
+  head "https://github.com/TheAppgineer/roon-tui.git", branch: "master"
 
   depends_on "rust" => :build
 
