@@ -1,12 +1,11 @@
 class RoonTui < Formula
-  license "MIT"
-
   desc "Roon Remote for the terminal"
   homepage "https://github.com/TheAppgineer/roon-tui"
 
   url "https://github.com/TheAppgineer/roon-tui.git", tag: "0.0.3"
   head "https://github.com/TheAppgineer/roon-tui.git", branch: "master"
 
+  license "MIT"
   depends_on "rust" => :build
 
   def install
