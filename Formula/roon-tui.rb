@@ -1,5 +1,5 @@
 class RoonTui < Formula
-  version "0.2.0"
+  version "0.1.0"
   sha256 "ab687b3ea38972569153d4757a417cab840ca34ce9ecf06aa43e06c61e485be0"
 
   url "https://github.com/TheAppgineer/roon-tui/archive/refs/tags/#{version}.tar.gz"
