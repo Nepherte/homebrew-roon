@@ -1,7 +1,7 @@
 class RoonTui < Formula
   desc "Roon Remote for the terminal"
   homepage "https://github.com/TheAppgineer/roon-tui"
-  url "https://github.com/TheAppgineer/roon-tui/archive/refs/tags/1.0.0.tar.gz"
+  url "https://github.com/TheAppgineer/roon-tui/archive/refs/tags/0.1.0.tar.gz"
   head "https://github.com/TheAppgineer/roon-tui.git", branch: "master"
   sha256 "ab687b3ea38972569153d4757a417cab840ca34ce9ecf06aa43e06c61e485be0"
   license "MIT"
