@@ -13,7 +13,7 @@ An overview of the available packages in this homebrew tap:
 
 | Package  | Version |       x86_64       |       arm64        |
 |:---------|:-------:|:------------------:|:------------------:|
-| roon-tui |  0.2.0  | :white_check_mark: | :white_check_mark: |
+| roon-tui |  0.3.0  | :white_check_mark: | :white_check_mark: |
 
 FAQ
 ---
