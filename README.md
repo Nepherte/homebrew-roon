@@ -5,7 +5,7 @@ Installation
 To install a package contained in this homebrew tap, run the commands:
 
     brew tap nepherte/roon
-    brew install --formula <package>
+    brew install --formula roon-tui
 
 Packages
 --------
