@@ -19,3 +19,10 @@ jobs:
         token: ${{ secrets.HOMEBREW_TOKEN }}
         tap: nepherte/roon
         livecheck: true
+
+    - name: Bump Homebrew Casks
+      uses: kitschpatrol/github-action-homebrew-bump-cask@v3.8.9
+      with:
+        token: ${{ secrets.HOMEBREW_TOKEN }}
+        tap: nepherte/ffmpeg
+        livecheck: true
