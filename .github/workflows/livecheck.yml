@@ -24,5 +24,5 @@ jobs:
       uses: kitschpatrol/github-action-homebrew-bump-cask@v3.8.9
       with:
         token: ${{ secrets.HOMEBREW_TOKEN }}
-        tap: nepherte/ffmpeg
+        tap: nepherte/roon
         livecheck: true
