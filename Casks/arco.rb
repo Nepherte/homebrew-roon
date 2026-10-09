@@ -7,6 +7,7 @@ cask "arco" do
   desc "Play Apple Music on Roon zones from the menu bar"
   homepage "https://github.com/renebouwmeester/arco"
 
+  auto_updates true
   depends_on macos: :sonoma
 
   pkg "Arco-#{version}.pkg"
