@@ -1,6 +1,6 @@
 cask "arco" do
-  version "0.3.3"
-  sha256 "3f5b9ea9ea38b13e8b41032192674533d490041e9e1969a889a673068a731e3e"
+  version "0.3.4"
+  sha256 "0f42126aa9b8bf51273a203d0de9961d19de795d6f2ecbebd2df45e083c24555"
 
   url "https://github.com/renebouwmeester/arco/releases/download/v#{version}/Arco-#{version}.pkg"
   name "Arco"
