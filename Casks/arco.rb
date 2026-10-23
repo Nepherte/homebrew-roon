@@ -22,9 +22,4 @@ cask "arco" do
               "/Applications/Arco.app",
               "/Library/Audio/Plug-Ins/HAL/Arco.driver",
             ]
-
-  caveats <<~EOS
-    For a full cleanup of Arco's settings and permissions, choose
-    “Uninstall Arco…” from the app's menu before removing this cask.
-  EOS
 end
