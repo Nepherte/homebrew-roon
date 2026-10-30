@@ -24,7 +24,7 @@ jobs:
         livecheck: true
 
     - name: Bump Homebrew Casks
-      uses: kitschpatrol/github-action-homebrew-bump-cask@v3.8.10
+      uses: kitschpatrol/github-action-homebrew-bump-cask@v3.8.11
       with:
         token: ${{ secrets.HOMEBREW_TOKEN }}
         tap: nepherte/roon
