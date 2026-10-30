@@ -8,12 +8,15 @@ on:
 jobs:
   livecheck:
     runs-on: macos-latest
-    
-    steps: 
+
+    steps:
     - name: Checkout Repo
       uses: actions/checkout@v7
 
-    - name: Update Homebrew Formula
+    - name: Trust Homebrew Taps
+      run: brew trust nepherte/roon
+
+    - name: Bump Homebrew Formula
       uses: kitschpatrol/github-action-homebrew-bump-formula@v10
       with:
         token: ${{ secrets.HOMEBREW_TOKEN }}
