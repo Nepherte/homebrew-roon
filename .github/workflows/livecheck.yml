@@ -17,14 +17,14 @@ jobs:
       run: brew trust nepherte/roon
 
     - name: Bump Homebrew Formula
-      uses: kitschpatrol/github-action-homebrew-bump-formula@v10.0.2
+      uses: dawidd6/action-homebrew-bump-formula@v11
       with:
         token: ${{ secrets.HOMEBREW_TOKEN }}
         tap: nepherte/roon
         livecheck: true
 
     - name: Bump Homebrew Casks
-      uses: kitschpatrol/github-action-homebrew-bump-cask@v3.8.11
+      uses: friesi23/action-homebrew-bump-cask@v2.2
       with:
         token: ${{ secrets.HOMEBREW_TOKEN }}
         tap: nepherte/roon
